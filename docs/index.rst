@@ -8,7 +8,7 @@ Rackspace Command Line Interface
              provide early feedback, see the `Github project`_
 
 Description
------------
+-----------------
 
 The Rackspace Command Line Interface is a unified tool to manage your Rackspace
 services. It provides streamlined and secure configuration as well as a single
