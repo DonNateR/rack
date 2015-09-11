@@ -4,15 +4,13 @@ Installation and Configuration
 ==============================
 
 .. warning::
-   The installation/configuration instructions here must be
-   considered buyer-beware. As development continues, a range of configuration
-   options will be supported; what works today may not work tomorrow, but it
-   works right now so that's ok.
+   Rackspace CLI is currently in beta. The installation/configurations instructions here are subject
+   to change. As development continues, a range of configuration options will be supported.
 
 Installation
 ------------
 
-The Rackspace CLI ``rack`` is a self-contained binary writted in go_. This means
+The Rackspace CLI ``rack`` is a self-contained binary written in go_. This means
 that installation is as simple as downloading the relevant binary for your
 operating system and ensuring it is on your path.
 
@@ -114,7 +112,7 @@ doesn't exist and walk you through creating a profile for it::
 
     Rackspace Username: iamacat
     Rackspace API key: secrets
-    Rackspace Region : IAD
+    Rackspace Region: IAD
     Profile Name (leave blank to create a default profile):
 
 This allows you to immediately get working::
@@ -154,9 +152,9 @@ In the example above there is a default profile that doesn't have a named sectio
 
 ::
 
-    rack --profile another-profile servers instance list
+    rack servers instance list --profile another-profile
 
-Note that not all (or any) of the authentication parameters
+Note that none of the authentication parameters
 have to be set in the config file. Parameters not set there will be looked for elsewhere.
 
 
@@ -236,7 +234,7 @@ config file profile. In either case, the parameter name will be ``auth-url``.
 
 
 .. _go: https://golang.org/
-.. _Mac OSX (64 bit): https://ec4a542dbf90c03b9f75-b342aba65414ad802720b41e8159cf45.ssl.cf5.rackcdn.com/0.0.4/Darwin/amd64/rack
-.. _Linux (64 bit): https://ec4a542dbf90c03b9f75-b342aba65414ad802720b41e8159cf45.ssl.cf5.rackcdn.com/0.0.4/Linux/amd64/rack
-.. _Windows (64 bit): https://ec4a542dbf90c03b9f75-b342aba65414ad802720b41e8159cf45.ssl.cf5.rackcdn.com/0.0.4/Windows/amd64/rack.exe
+.. _Mac OSX (64 bit): https://ec4a542dbf90c03b9f75-b342aba65414ad802720b41e8159cf45.ssl.cf5.rackcdn.com/1.0.0-beta.1/Darwin/amd64/rack
+.. _Linux (64 bit): https://ec4a542dbf90c03b9f75-b342aba65414ad802720b41e8159cf45.ssl.cf5.rackcdn.com/1.0.0-beta.1/Linux/amd64/rack
+.. _Windows (64 bit): https://ec4a542dbf90c03b9f75-b342aba65414ad802720b41e8159cf45.ssl.cf5.rackcdn.com/1.0.0-beta.1/Windows/amd64/rack.exe
 .. _Cloud Control panel: https://mycloud.rackspace.com/
